@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color:green;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.carousel-item img.dynamic-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.price {
+    background-color: rgba(195, 48, 48, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #36777c;
+    color: #ae4f4f;
+    text-align: center;
+    padding: 20px;
+}
